@@ -1,4 +1,3 @@
-from tkinter import Y
 import flask
 
 from flask import Flask, render_template
