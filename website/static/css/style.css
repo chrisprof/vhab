@@ -1,3 +1,46 @@
 body {
     background-color: #D5EEBB;
 }
+
+* {
+    font-family:"Lucida Console", 'Courier New';
+}
+
+
+/*Home*/ 
+#wise-words {
+    margin-left:111px;
+    margin-top: 180px;
+    width: 600px;
+    display: inline-block;
+    font-style: italic;
+}
+
+#QuoteAuthor {
+    margin-left:111px;
+    margin-top: 5px;
+    width: 600px;
+    font-style: italic;
+}
+
+#Addiction {
+    float: right;
+    width:auto;
+    height:400px;
+    margin-right:111px;
+    margin-top: 100px;
+
+}
+
+#WelcomeDiv {
+    width:600px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 111px;
+    font-size: 15px;
+}
+
+#WelcomeDiv-t {
+    font-size: 20px;
+}
+
