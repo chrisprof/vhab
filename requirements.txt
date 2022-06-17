@@ -4,14 +4,10 @@ backcall==0.2.0
 cachetools==5.2.0
 certifi==2022.5.18.1
 entrypoints==0.4
-executing==0.8.3
-flatbuffers==1.12
+flask==2.1.2
 gast==0.4.0
 ipykernel==6.11.0
 ipython==8.2.0
-jedi==0.18.1
-joblib==1.1.0
-libclang==14.0.1
 Markdown==3.3.7
 matplotlib==3.5.1
 matplotlib-inline==0.1.3

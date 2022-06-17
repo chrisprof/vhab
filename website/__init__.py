@@ -9,8 +9,6 @@ def create_app():
     from .views import views
     from .link import link
 
-
-
     app.register_blueprint(views, url_prefix='/')
     app.register_blueprint(link, url_prefix='/')
     return app
