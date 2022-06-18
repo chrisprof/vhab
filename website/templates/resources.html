@@ -4,10 +4,35 @@
 
 {% block content %}
 
-    <body>
-    
+
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/resources.css') }}"
+            rel="stylesheet"
+        />
+        <body class="bg">
+            <div class="title">
+                <h1>Extra Resources</h1>
+                <h1 class="plus">+</h1>
+                <h1>Professional Help</h1>
 
 
-    </body>
+                <div class="box-container">
+                    <div id="help-lines" class="boxes">
+                        <h1>Hello</h1>
+                    </div>
+                    <div id="websites" class="boxes">
+                        <h1>Hello</h1>
+                    </div>
+                    <div id="centers" class="boxes">
+                        <h1>Hello</h1>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
 
 {% endblock %}

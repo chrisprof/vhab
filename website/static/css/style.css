@@ -76,10 +76,9 @@ body {
   margin-top: 17px;
   width: 1400px;
   margin: 0 auto;
-  border-radius: 7px;
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
-  box-shadow: 5px 10px 18px #99d3ba;
+  box-shadow: 10px 10px 0px #99d3ba;
 }
 
 .section-header {
@@ -138,7 +137,7 @@ body {
 }
 
 #journey-btn {
-  width: 215vh;
+  width: 199vh;
   height: 400px;
   margin-top: 20px;
   margin-bottom: auto;
@@ -146,8 +145,7 @@ body {
   color: rgb(142, 202, 185);
   background: none;
   padding: 1.2rem 2.4rem;
-  border-radius: 11px;
-  border: none;
+  border:none;
   transition: all 0.3s;
   font-size: 60px;
 }
@@ -219,6 +217,26 @@ body {
   margin-right: 200px;
   opacity: 0.8;
 }
+
+.CheckOut {
+  display:flex;
+  color: whitesmoke;
+  justify-content: center;
+  background-color: rgb(105, 98, 139);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+.CheckOut:hover,
+.CheckOut:active {
+  background-color: #c6a4e3;
+  color: rgb(63, 63, 63);
+}
+
+
 
 .form-container .cancel {
   background-color: #0e4a4e;

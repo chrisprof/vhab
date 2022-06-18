@@ -16,8 +16,11 @@ document.addEventListener('scroll',function(e){
 
 function openForm() {
     document.getElementById("myForm").style.display = "block";
+    style.display = 'none';
   }
   
-  function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-  }
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
