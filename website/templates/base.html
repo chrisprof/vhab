@@ -5,16 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+      rel="stylesheet"
+    />
 
-
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
-
-
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/nav-style.css') }}"
+      rel="stylesheet"
+    />
 
     <title>{% block tittle %}{% endblock %}</title>
   </head>
   <body>
-    <nav></nav>
+    <title>Omnifood &mdash; Never cook again!</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+      <a href="#">
+        <img class="logo" alt="vHab logo" src="" /> 
+      </a>
+      <a class="clean-days">Clean days:</a>
+    </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="get-help" href="#">Get Help!</a></li>
+      </nav>
+      </header>
     <div>{% block content %}{% endblock %}</div>
   </body>
 </html>
