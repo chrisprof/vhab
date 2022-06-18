@@ -17,6 +17,8 @@
       rel="stylesheet"
     />
 
+    <link rel="icon" href="{{ url_for('static', filename='images/vhabpng.png') }}">
+
     <title>{% block tittle %}{% endblock %}</title>
   </head>
   <body>
@@ -25,8 +27,8 @@
   <body>
     <header class="header">
       <div class="header-container">
-      <a href="#">
-        <img class="logo" alt="vHab logo" src="" /> 
+      <a href="">
+        <img class="logo" alt="vHab logo" src="{{ url_for('static',filename='images/vhabpng.png')}}" /> 
       </a>
       <a class="vhabName">vHab</a>
       <a class="stats-page">statistics</a>
