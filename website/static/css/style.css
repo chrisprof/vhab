@@ -218,6 +218,26 @@ body {
   opacity: 0.8;
 }
 
+.CheckOut {
+  display:flex;
+  color: whitesmoke;
+  justify-content: center;
+  background-color: rgb(105, 98, 139);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+.CheckOut:hover,
+.CheckOut:active {
+  background-color: #c6a4e3;
+  color: rgb(63, 63, 63);
+}
+
+
+
 .form-container .cancel {
   background-color: #0e4a4e;
   margin-left: 200px;
