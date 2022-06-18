@@ -3,7 +3,7 @@ body {
 }
 
 #HomeBody {
-  height: 2250px;
+  height: 2900px;
 }
 
 * {
@@ -123,16 +123,46 @@ body {
 }
 
 .ending-div {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
-  width: 500px;
+  width: 600px;
   flex-wrap: wrap;
   color: white;
 }
 
+<<<<<<< Updated upstream
 .clean-days {
   color: #fff;
 }
+=======
+>>>>>>> Stashed changes
 
 #journey-btn {
+  width: 215vh;
+  height: 500px;
+  margin-top: 300px;
+  margin-bottom: auto;
+  text-decoration: none;
+  color: rgb(142, 202, 185);
+  background: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 11px;
+  border:none;
+  transition: all 0.3s;
+  font-size: 60px;
+}
+
+#journey-btn:hover,
+#journey-btn:active {
+  background-color: #7FC8A9;
+  color:white;
+}
+
+#GrapeVine {
+  width: 400px;
+  margin-top: 50px;
+  
 }

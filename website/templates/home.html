@@ -50,8 +50,15 @@ content%}
   </div>
 </section>
 <div class="ending-div">
-  <h1>so what are you waiting for?</h1>
-  <button id="journey-btn">start journey</button>
+  <h1 id = 'ending-text'>So what are you waiting for?</h1>
+  
+  <img
+  src="{{ url_for('static', filename='images/GrapeVine.png')}}"
+  id="GrapeVine"
+  />
+
+
+  <a href="#"><button id="journey-btn" on>start journey</button></a>
 </div>
 </div>
 <script     src="{{ url_for('static', filename='js/home.js')}}"></script>
