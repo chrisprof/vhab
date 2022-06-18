@@ -19,6 +19,6 @@ def resources():
     return render_template("resources.html")
 
 
-@views.route('/drug ')
+@views.route('/drug')
 def drug():
     return render_template("drug.html")
