@@ -1,6 +1,7 @@
 {% extends "base.html" %} {% block tittle %} Home {% endblock %} {% block
 content%}
 
+<body id = 'HomeBody'>
 <div>
   <img
     src="{{ url_for('static', filename='images/Addiction.png')}}"
@@ -48,5 +49,12 @@ content%}
     </div>
   </div>
 </section>
+<div class="ending-div">
+  <h1>so what are you waiting for?</h1>
+  <button id="journey-btn">start journey</button>
+</div>
+</div>
+<script     src="{{ url_for('static', filename='js/home.js')}}"></script>
 
+</body>
 {% endblock %}

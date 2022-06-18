@@ -2,6 +2,10 @@ body {
   background-color: #d5eebb;
 }
 
+#HomeBody {
+  height: 2250px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -31,6 +35,21 @@ body {
   height: 550px;
   margin-right: 111px;
   margin-top: 100px;
+}
+
+#BWVine {
+  float: right;
+  width: auto;
+  height: 500px;
+  margin-right: 200px;
+  margin-top: 0px;
+}
+
+#CleanLeaf {
+  float: left;
+  width: auto;
+  height: 350px;
+  margin-left: 10px;
 }
 
 #WelcomeDiv {
@@ -70,6 +89,8 @@ body {
   font-weight: 600;
   color: #bfe4d4;
   margin-bottom: 1.2rem;
+  padding-left: 50px;
+  padding-top: 50px;
 }
 
 .step-number--1,
@@ -102,4 +123,15 @@ body {
   margin: 0 auto;
   padding: 10px;
   position: relative;
+}
+
+.ending-div {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+#journey-btn {
 }

@@ -2,26 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #7fc8a9;
-  padding: 2rem 1rem 2rem 1rem;
+  width:100%;
+  background-color: #2f4e41;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.header-container{
+  width:80%;
 }
 
 .get-help {
   text-decoration: none;
-  color: #000;
-  background-color: #598c76;
+  color: rgb(142, 202, 185);
+  background: none;
   padding: 1.2rem 2.4rem;
   border-radius: 11px;
+  border:none;
+  transition: all 0.3s;
 }
 
 .get-help:hover,
 .get-help:active {
   background-color: #66a087;
-}
-
-.get-help:link,
-.get-help:visited {
-  transition: all 0.3s;
+  color:white;
 }
 
 .main-nav-list {
@@ -34,4 +37,15 @@
 
 .logo {
   height: 2.2rem;
+}
+
+.nav-bar-element{
+  margin-right: 4%;
+  color:white;
+  transition: all 0.25s;
+}
+
+.nav-bar-element:active,
+.nav-bar-element:hover{
+  text-decoration: underline;
 }
