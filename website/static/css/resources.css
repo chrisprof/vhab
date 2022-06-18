@@ -5,45 +5,46 @@
 .bg{
     background-color: #E0DDAA;
 }
+
 .plus{
     margin-left: 10px;
+    margin-right: 10px;
 }
-.help-lines{
-    width: 100px;
-    border: 10px;
-    padding: 95px;
-    margin: 15px;
-    margin-left: -40px;
+
+/*Stuff*/
+
+
+.boxes {
+    margin-left: 40px;
+    margin-right:40px;
+    width: 1000px;
+    height:700px;
+}
+
+#help-lines{
+
     background-color: #8FC0A9;
-    display: flex;
+    
 }
-.websites{
-    width: 100px;
-    border: 10px;
-    padding: 95px;
-    padding-top: 20px;
-    margin: 15px;
-    margin-left: 180px;
-    margin-top: -243px;
-    padding-bottom: 190px;
+
+#websites{
+
     background-color: #EEEDDE;
-    display: flex;
+    
 }
-.centers{
-    width: 100px;
-    border: 10px;
-    padding: 95px;
-    padding-bottom: 115px;
-    margin: 15px;
-    margin-left: 400px;
-    margin-top: -245px;
+
+#centers{
+
     background-color: #8FC0A9;
+    
+}
+
+
+.box-container{
     display: flex;
-}
-.help-lines-header{
-    text-align: center;
-}
-.boxes{
-    width: 600px;
-    margin:0 auto;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+
 }
