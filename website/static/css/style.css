@@ -69,6 +69,15 @@ body {
   line-height: 1.3;
 }
 
+.number-text h1 {
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+.number-text {
+  display: flex;
+}
+
 .section {
   display: flex;
   align-items: center;
@@ -78,7 +87,8 @@ body {
   margin: 0 auto;
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
-  box-shadow: 10px 10px 0px #99d3ba;
+  border-radius: 11px;
+  box-shadow: 30px 20px 25px #99d3ba;
 }
 
 .section-header {
@@ -137,7 +147,7 @@ body {
 }
 
 #journey-btn {
-  width: 207vh;
+  width: 100%;
   height: 400px;
   margin-top: 20px;
   margin-bottom: auto;
@@ -145,7 +155,7 @@ body {
   color: rgb(142, 202, 185);
   background: none;
   padding: 1.2rem 2.4rem;
-  border:none;
+  border: none;
   transition: all 0.3s;
   font-size: 60px;
 }
@@ -216,6 +226,24 @@ body {
   margin-left: 200px;
   margin-right: 200px;
   opacity: 0.8;
+}
+
+.CheckOut {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  background-color: rgb(105, 98, 139);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border: none;
+  transition: all 0.3s;
+}
+
+.CheckOut:hover,
+.CheckOut:active {
+  background-color: #c6a4e3;
+  color: rgb(63, 63, 63);
 }
 
 .form-container .cancel {
@@ -303,4 +331,63 @@ body {
   background: rgb(255, 255, 255);
   margin-bottom: 2%;
 }
+
+/* DRUG DATABASE */
+
+.heading {
+  margin: 36px 0;
+  font-size: 45px;
+  text-align: center;
+}
+
+.drug-img {
+  width: 215px;
+  height: auto;
+  margin-left: 500px;
+  margin-bottom: 24px;
+}
+
+.section-drug {
+  background-color: #9eb8ad;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.drug-container {
+  height: 514.23px;
+  background-color: #d9d9d9;
+  padding: 24px 48px;
+  margin-bottom: 36px;
+  box-shadow: 15px 10px 25px #555;
+}
+
+.drug-container p {
+  margin-bottom: 12px;
+  line-height: 1.1;
+  font-size: 15px;
+}
+
+.drug-container h2 {
+  margin-top: 20px;
+}
+
+.meth-container p {
+  margin-top: 120px;
+}
+
+.herion-container p {
+  margin-top: 74px;
+}
+
+.marijuana-container p {
+  margin-top: 87px;
+}
+
 /*end End*/
+
+::selection {
+  background: #ff9e9e; /* WebKit/Blink Browsers */
+}

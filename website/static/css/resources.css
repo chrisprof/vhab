@@ -1,0 +1,50 @@
+.title{
+    padding: 3rem;
+    text-align: center;
+}
+.bg{
+    background-color: #E0DDAA;
+}
+
+.plus{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Stuff*/
+
+
+.boxes {
+    margin-left: 40px;
+    margin-right:40px;
+    width: 1000px;
+    height:700px;
+}
+
+#help-lines{
+
+    background-color: #8FC0A9;
+    
+}
+
+#websites{
+
+    background-color: #EEEDDE;
+    
+}
+
+#centers{
+
+    background-color: #8FC0A9;
+    
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+
+}
