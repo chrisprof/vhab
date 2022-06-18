@@ -11,3 +11,13 @@ document.addEventListener('scroll',function(e){
     document.body.style.backgroundColor='rgb('+r+','+g+','+b+')';
     console.log(lastPosYsc)
 })
+
+//Start button//
+
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }

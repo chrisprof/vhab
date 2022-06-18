@@ -58,7 +58,27 @@ content%}
   />
 
 
-  <a href="#"><button id="journey-btn" on>start journey</button></a>
+
+  <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1 id = 'InfoH1'>Please Enter Your Information</h1>
+  
+      <label type='text'><b>#</b></label>
+      <input type="text" placeholder="Enter #" name="email" required>
+  
+      <label for="psw"><b>#</b></label>
+      <input type="password" placeholder="Enter #" name="psw" required>
+  
+      <button type="submit" class="btn">Enter</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+
+  <a><button id="journey-btn" class="open-button" onclick="openForm()">start journey</button></a>
+
+
+
+
 </div>
 </div>
 <script     src="{{ url_for('static', filename='js/home.js')}}"></script>
