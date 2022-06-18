@@ -1,16 +1,115 @@
-{% extends "base.html" %} 
+{% extends "base.html" %} {% block title %} Drug {% endblock %} {% block content
+%}
 
-{% block title %}
+<body class="section-drug">
+  <section>
+    <div class="content">
+      <h1 class="heading">Drug Database</h1>
+      <div class="meth-container drug-container">
+        <h2>Methamphetamine</h2>
+        <img class="drug-img" alt="Meth pic" src="../static/images/meth.png" />
+        <p>
+          Methamphetamine is a powerful, highly addictive stimulant that affects
+          the central nervous system. Crystal methamphetamine is a form of the
+          drug that looks like glass fragments or shiny, bluish-white rocks.
+          There are currently no government-approved medications to treat
+          methamphetamine addiction.The most effective treatments for
+          methamphetamine addiction so far are behavioral therapies, such as:
+        </p>
+        <ul>
+          <li>
+            cognitive-behavioral therapy, which helps patients recognize, avoid,
+            and cope with the situations likely to trigger drug use.
+          </li>
+          <li>
+            motivational incentives, which uses vouchers or small cash rewards
+            to encourage patients to remain drug-free such as vHab.
+          </li>
+        </ul>
+      </div>
 
-Drug
+      <div class="cocaine-container drug-container">
+        <h2>Cocaine</h2>
+        <img
+          class="drug-img"
+          alt="Cocaine pic"
+          src="../static/images/cocain.png"
+        />
+        <p>
+          Cocaine is a powerfully addictive stimulant drug made from the leaves
+          of the coca plant native to South America. Although health care
+          providers can use it for valid medical purposes, recreational cocaine
+          use is illegal. As a street drug, cocaine looks like a fine, white,
+          crystal powder. Street dealers often mix it with other drugs such as
+          the stimulant amphetamine, or synthetic opioids, including fentanyl.
+          Adding synthetic opioids to cocaine is especially risky when people
+          using cocaine don’t realize it contains this dangerous additive.
+          Increasing numbers of overdose deaths among cocaine users might be
+          related to this tampered cocaine. Behavioral therapy may be used to
+          treat cocaine addiction. Examples include:
+        </p>
+        <ul>
+          <li>Cognitive-behavioral therapy</li>
+          <li>
+            Contingency management or motivational incentives—providing rewards
+            to patients who remain substance free
+          </li>
+          <li>
+            Therapeutic communities—drug-free residences in which people in
+            recovery from substance use disorders help each other to understand
+            and change their behaviors
+          </li>
+          <li>Community based recovery groups, such as 12-step programs</li>
+        </ul>
+      </div>
 
-{% endblock %} 
+      <div class="drug-container herion-container">
+        <h2>Heroin</h2>
+        <img
+          class="drug-img"
+          alt="Heroin pic"
+          src="../static/images/heroin.png"
+        />
+        <p>
+          Heroin is an opioid drug made from morphine, a natural substance taken
+          from the seed pod of the various opium poppy plants grown in Southeast
+          and Southwest Asia, Mexico, and Colombia. Heroin can be a white or
+          brown powder, or a black sticky substance known as black tar heroin.
+          Naloxone is a medicine that can treat an opioid overdose when given
+          right away. It works by rapidly binding to opioid receptors and
+          blocking the effects of heroin and other opioid drugs. Sometimes more
+          than one dose may be needed to help a person start breathing again,
+          which is why it’s important to get the person to an emergency
+          department or a doctor to receive additional support if needed. Read
+          more in the Substance Abuse and Mental Health Services
+          Administration’s Opioid Overdose Prevention Toolkit.
+        </p>
+      </div>
 
-
-{% block content %}
-
-  <body>
-    <h1>Extra Information about Drugs</h1>
-  </body>
+      <div class="drug-container marijuana-container">
+        <h2>Marijuana</h2>
+        <img
+          class="drug-img"
+          alt="Ethanol/alcohol pic"
+          src="../static/images/alchahol.png"
+        />
+        <p>
+          Marijuana is the most commonly used addictive drug after tobacco and
+          alcohol. Its use is widespread among young people. In 2018, more than
+          11.8 million young adults used marijuana in the past year. People
+          smoke marijuana in hand-rolled cigarettes (joints) or in pipes or
+          water pipes (bongs). They also smoke it in blunts—emptied cigars that
+          have been partly or completely refilled with marijuana.No medications
+          are currently available to treat marijuana use disorder, but
+          behavioral support has been shown to be effective. Examples include
+          therapy and motivational incentives (providing rewards to patients who
+          remain drug-free). Continuing research may lead to new medications
+          that help ease withdrawal symptoms, block the effects of marijuana,
+          and prevent relapse.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
 
 {% endblock %}

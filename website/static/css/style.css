@@ -279,4 +279,59 @@ body {
 .info-cont div {
   transition: all 0.25s;
 }
+
+/* DRUG DATABASE */
+
+.heading {
+  margin: 36px 0;
+  font-size: 45px;
+  text-align: center;
+}
+
+.drug-img {
+  width: 215px;
+  height: auto;
+  margin-left: 500px;
+  margin-bottom: 24px;
+}
+
+.section-drug {
+  background-color: #9eb8ad;
+}
+
+.content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.drug-container {
+  height: 514.23px;
+  background-color: #d9d9d9;
+  padding: 24px 48px;
+  margin-bottom: 36px;
+  box-shadow: 15px 10px 25px #555;
+}
+
+.drug-container p {
+  margin-bottom: 12px;
+  line-height: 1.1;
+  font-size: 15px;
+}
+
+.drug-container h2 {
+  margin-top: 20px;
+}
+
+.meth-container p {
+  margin-top: 120px;
+}
+
+.herion-container p {
+  margin-top: 74px;
+}
+
+.marijuana-container p {
+  margin-top: 87px;
+}
+
 /*end End*/
