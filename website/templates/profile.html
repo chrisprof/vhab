@@ -5,15 +5,18 @@
 {% block content %}
 <div class="parent-cont-prof">
     <div class="header-cont">
-        <h1>welcome, Example</h1>
+        <h1>welcome, <span>name</span></h1>
     </div>
-
     <div class="info-cont">
-        <div class="graph-cont">
-            <h3>drug</h3>
-            <img src="">
+        <div class="graph-cont info-cont-child">
+            <div class="upper-cont">
+                <h3 id="drug">cocaine</h3>
+                <h3 id="percentage-loss">20%</h3>
+            </div>
+            <canvas id="dosageGraph"></canvas>
+            <h2>Today's Dose: <span id="todays-dose">2mg</span></h2s>
         </div>
-        <div class="clean-count-cont">
+        <div class="clean-count-cont info-cont-child">
             <h1 class="clean-count-head">days clean</h1>
             <h1 id="clean-days" class="clean-count-head">0</h1>
         </div>

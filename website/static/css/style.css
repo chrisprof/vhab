@@ -245,13 +245,34 @@ body {
 
 .graph-cont {
   background-color: #ecffce;
-  width: 700px;
-  height: 350px;
+  width: 600px;
+  text-align: center;
+  height: 425px;
+}
+
+.upper-cont h3{
+  margin: 4.5% 10% 4.5% 5%;
+  word-wrap: break-word;
+}
+
+#todays-dose{
+  text-align: center;
+}
+
+#drug{
+  margin-right: 60%
+}
+
+.upper-cont{
+  display: flex;
+  flex-direction: row;
+  word-wrap: break-word;
+  justify-content: space-evenly;
 }
 
 .clean-count-cont {
   background-color: #ecffce;
-  width: 500px;
+  width: 600px;
   height: 350px;
   text-align: center;
 }
@@ -270,11 +291,16 @@ body {
   margin: 8% 0% 8% 0%;
 }
 
-.info-cont div:hover {
+.info-cont-child:hover{
   box-shadow: 5px 5px 0px #4f6034;
 }
 
-.info-cont div {
+.info-cont-child {
   transition: all 0.25s;
+}
+
+#dosageGraph{
+  background: rgb(255, 255, 255);
+  margin-bottom: 2%;
 }
 /*end End*/
