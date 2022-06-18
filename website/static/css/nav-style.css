@@ -44,7 +44,12 @@
 
 .nav-bar-element {
   margin-right: 4%;
+<<<<<<< Updated upstream
   color: white;
+=======
+  color:white;
+  text-decoration: none;
+>>>>>>> Stashed changes
   transition: all 0.25s;
 }
 

@@ -11,3 +11,4 @@ document.addEventListener('scroll',function(e){
     document.body.style.backgroundColor='rgb('+r+','+g+','+b+')';
     console.log(lastPosYsc)
 })
+

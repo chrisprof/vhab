@@ -8,3 +8,12 @@ views = Blueprint('views', __name__)
 @views.route('/home')
 def home():
     return render_template("home.html")
+
+@views.route('/profile')
+def profile():
+    return render_template("profile.html")
+
+@views.route('/resources')
+def resources():
+    return render_template("resources.html")
+

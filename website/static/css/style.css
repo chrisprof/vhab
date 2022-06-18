@@ -161,8 +161,56 @@ body {
   color:white;
 }
 
+<<<<<<< Updated upstream
 #GrapeVine {
   width: 400px;
   margin-top: 50px;
   
+=======
+}
+
+/* profile */
+
+.parent-cont-prof{
+  padding: 3rem;
+}
+
+.header-cont{
+  margin: 0% 0% 5% 0%;
+}
+
+.graph-cont{
+  background-color: #ECFFCE;
+  width:700px;
+  height:350px;
+}
+
+.clean-count-cont{
+  background-color: #ECFFCE;
+  width:500px;
+  height:350px;
+  text-align: center;
+}
+
+#clean-days{
+  font-size: 200px;
+  font-weight: lighter;
+}
+
+.info-cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.clean-count-head{
+  margin: 8% 0% 8% 0%;
+}
+
+.info-cont div:hover{
+  box-shadow: 5px 5px 0px #4F6034
+}
+
+.info-cont div{
+  transition: all 0.25s;
+>>>>>>> Stashed changes
 }
