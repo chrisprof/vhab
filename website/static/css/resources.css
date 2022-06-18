@@ -19,6 +19,7 @@
     margin-right:40px;
     width: 1000px;
     height:700px;
+    box-shadow: 10px 5px 15px #7e7d8c;
 }
 
 #help-lines{
@@ -47,4 +48,23 @@
     width: 100%;
     margin-top: 50px;
 
+}
+
+.boxes {
+    padding-top: 40px;
+}
+
+.ResourceLinks {
+    text-decoration: none;
+    color: rgb(0, 52, 52);
+    font-size:25px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 10px;
+} 
+
+
+
+.ResourceInnerDivs {
+    margin-top:50px;
 }
