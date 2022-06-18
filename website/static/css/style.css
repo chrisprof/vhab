@@ -78,7 +78,8 @@ body {
   margin: 0 auto;
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
-  box-shadow: 10px 10px 0px #99d3ba;
+  border-radius: 11px;
+  box-shadow: 30px 20px 25px #99d3ba;
 }
 
 .section-header {
@@ -145,7 +146,7 @@ body {
   color: rgb(142, 202, 185);
   background: none;
   padding: 1.2rem 2.4rem;
-  border:none;
+  border: none;
   transition: all 0.3s;
   font-size: 60px;
 }
@@ -219,7 +220,7 @@ body {
 }
 
 .CheckOut {
-  display:flex;
+  display: flex;
   color: whitesmoke;
   justify-content: center;
   background-color: rgb(105, 98, 139);
@@ -235,8 +236,6 @@ body {
   background-color: #c6a4e3;
   color: rgb(63, 63, 63);
 }
-
-
 
 .form-container .cancel {
   background-color: #0e4a4e;
@@ -353,3 +352,7 @@ body {
 }
 
 /*end End*/
+
+::selection {
+  background: #ff9e9e; /* WebKit/Blink Browsers */
+}
