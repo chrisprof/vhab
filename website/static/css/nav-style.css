@@ -2,13 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width:100%;
+  width: 100%;
   background-color: #2f4e41;
   padding: 1rem 1rem 1rem 2rem;
 }
 
-.header-container{
-  width:80%;
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
 }
 
 .get-help {
@@ -17,35 +24,31 @@
   background: none;
   padding: 1.2rem 2.4rem;
   border-radius: 11px;
-  border:none;
+  border: none;
   transition: all 0.3s;
 }
 
 .get-help:hover,
 .get-help:active {
   background-color: #66a087;
-  color:white;
+  color: white;
 }
 
 .main-nav-list {
   list-style: none;
 }
 
-.clean-days {
-  margin-left: 1rem;
-}
-
 .logo {
   height: 2.2rem;
 }
 
-.nav-bar-element{
+.nav-bar-element {
   margin-right: 4%;
-  color:white;
+  color: white;
   transition: all 0.25s;
 }
 
 .nav-bar-element:active,
-.nav-bar-element:hover{
+.nav-bar-element:hover {
   text-decoration: underline;
 }

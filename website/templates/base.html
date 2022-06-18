@@ -21,15 +21,20 @@
   <body>
     <header class="header">
       <div class="header-container">
-        <a href="#">
-          <img class="logo" alt="vHab logo" src="" />
-        </a>
-        <a class="clean-days">Clean days:</a>
+        <div>
+          <img
+            src="{{ url_for('static', filename='images/vhabpng.png')}}"
+            class="logo-img"
+          />
+        </div>
       </div>
 
       <nav>
         <ul class="main-nav-list">
-          <li><a href="#"><button class="get-help">more resources</button></a></li>
+          <li>
+            <a href="#"><button class="get-help">more resources</button></a>
+          </li>
+        </ul>
       </nav>
     </header>
 
