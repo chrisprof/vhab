@@ -52,26 +52,54 @@ body {
 
 .section {
   margin-top: 17px;
-  background-color: #7fc8a9;
-  padding: 1.2rem 0 9.6rem 0;
+  background-color: #a5d9c3;
+  padding: 1.3rem 0 9.6rem 0;
 }
 
 .section-header {
+  margin-bottom: 100px;
+  font-size: 36px;
   margin-top: 17px;
   margin-left: 17px;
   font-weight: 700;
-  color: #333;
 }
 
 .step-number {
+  padding-bottom: 150px;
   font-size: 86px;
   font-weight: 600;
-  color: #ddd;
+  color: #bfe4d4;
   margin-bottom: 1.2rem;
 }
 
-.step-img-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.step-number--1,
+.step-number--2,
+.step-number--3 {
+  margin-left: 25px;
+}
+
+.step-number--3 {
+  padding-bottom: 0;
+}
+
+.main-content {
+  margin-left: 550px;
+}
+
+.main_content {
+  top: 160px;
+  left: 160px;
+  width: 800px;
+  min-height: 500px;
+  height: auto;
+  background-color: #2185c5;
+  position: relative;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
 }

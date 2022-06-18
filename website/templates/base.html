@@ -16,26 +16,24 @@
       href="{{ url_for('static', filename='css/nav-style.css') }}"
       rel="stylesheet"
     />
-
     <title>{% block tittle %}{% endblock %}</title>
-  </head>
-  <body>
-    <title>Omnifood &mdash; Never cook again!</title>
   </head>
   <body>
     <header class="header">
       <div class="header-container">
-      <a href="#">
-        <img class="logo" alt="vHab logo" src="" /> 
-      </a>
-      <a class="clean-days">Clean days:</a>
-    </div>
+        <a href="#">
+          <img class="logo" alt="vHab logo" src="" />
+        </a>
+        <a class="clean-days">Clean days:</a>
+      </div>
 
-      <nav class="main-nav">
+      <nav>
         <ul class="main-nav-list">
-          <li><a class="get-help" href="#">Get Help!</a></li>
+          <li><a class="get-help" href="#">Get Help Now!</a></li>
+        </ul>
       </nav>
     </header>
+
     <div>{% block content %}{% endblock %}</div>
   </body>
 </html>
