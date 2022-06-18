@@ -69,6 +69,15 @@ body {
   line-height: 1.3;
 }
 
+.number-text h1 {
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+.number-text {
+  display: flex;
+}
+
 .section {
   display: flex;
   align-items: center;
