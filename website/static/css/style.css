@@ -85,10 +85,11 @@ body {
   margin-top: 17px;
   width: 1400px;
   margin: 0 auto;
+  color:rgb(247, 250, 223);
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
   border-radius: 11px;
-  box-shadow: 30px 20px 25px #99d3ba;
+  box-shadow: 10px 10px 0px #99d3ba;
 }
 
 .section-header {
@@ -153,7 +154,7 @@ body {
   margin-top: 20px;
   margin-bottom: auto;
   text-decoration: none;
-  color: rgb(142, 202, 185);
+  color: rgb(225, 255, 246);
   background: none;
   padding: 1.2rem 2.4rem;
   border: none;
@@ -362,7 +363,7 @@ body {
   background-color: #d9d9d9;
   padding: 24px 48px;
   margin-bottom: 36px;
-  box-shadow: 15px 10px 25px #555;
+  box-shadow: 10px 10px 0px #555;
 }
 
 .drug-container p {
