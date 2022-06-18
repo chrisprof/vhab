@@ -45,6 +45,7 @@
 .nav-bar-element {
   margin-right: 4%;
   color: white;
+  text-decoration: none;
   transition: all 0.25s;
 }
 
