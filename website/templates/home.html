@@ -1,36 +1,36 @@
-{% extends "base.html" %} 
-
-{% block tittle %}
-
-
-Home
-
-
-{% endblock %} 
-
-
-
-{% block content%}
-
+{% extends "base.html" %} {% block tittle %} Home {% endblock %} {% block
+content%}
 
 <div>
-    <img src="{{ url_for('static', filename='images/Addiction.png')}}" id="Addiction">
-    <div id = 'wise-words'>
-        <h1> “If you can quit for a day,</h1>
-        <h1>you can quit for a lifetime.”</h1>
-    </div>
+  <img
+    src="{{ url_for('static', filename='images/Addiction.png')}}"
+    id="Addiction"
+  />
+  <div id="wise-words">
+    <h1>“If you can quit for a day,</h1>
+    <h1>you can quit for a lifetime.”</h1>
+  </div>
 </div>
 
-<div id = 'QuoteAuthor'> - Benjamin Alire Sáenz</div>
+<div id="QuoteAuthor">- Benjamin Alire Sáenz</div>
 
-<div id = "WelcomeDiv">
-    <p id = "WelcomeDiv-t">[ Welcome to vHab ]</p>
+<div id="WelcomeDiv">
+  <p id="WelcomeDiv-t">[ Welcome to vHab ]</p>
 
-    <p>vHab is a free online resource for struggling drug addicts looking to change their life. The easy-to-use daily dose reducer and clean counter helps addicts manage their lives without entering a state of withdrawal. Users can manage their addiction by following the daily dose reducer. The resource helps eliminate drugs from one's life according to their needs. The Clean Counter gives survivors a feeling of accomplishment as they look back at all they have done. vHab wasn't just made for drug addicts; but also concerned mothers, fathers, sons, daughters, and others. The family help center provides detailed instructions regarding how to help a loved one from addiction. Make sure to check out the drug database to learn all about specific drugs and understand how to counteract them. Lastly, vHab provides General info, including links/numbers to certified professionals if needed.</p id ='OverviewDiv'>
+  <p id="OverviewDiv">
+    vHab is a free online resource for struggling drug addicts looking to change
+    their life. The easy-to-use daily dose reducer and clean counter helps
+    addicts manage their lives without entering a state of withdrawal. Users can
+    manage their addiction by following the daily dose reducer. The resource
+    helps eliminate drugs from one's life according to their needs. The Clean
+    Counter gives survivors a feeling of accomplishment as they look back at all
+    they have done. vHab wasn't just made for drug addicts; but also concerned
+    mothers, fathers, sons, daughters, and others. The family help center
+    provides detailed instructions regarding how to help a loved one from
+    addiction. Make sure to check out the drug database to learn all about
+    specific drugs and understand how to counteract them. Lastly, vHab provides
+    General info, including links/numbers to certified professionals if needed.
+  </p>
 </div>
-
-
-
-
 
 {% endblock %}
