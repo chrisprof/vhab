@@ -27,19 +27,16 @@
   <body>
     <header class="header">
       <div class="header-container">
-      <a href="">
-        <img class="logo" alt="vHab logo" src="{{ url_for('static',filename='images/vhabpng.png')}}" /> 
-      </a>
-      <a class="vhabName">vHab</a>
-      <a class="stats-page">statistics</a>
-      <a class="clean-days">drug database</a>
-      <a class="clean-days">dose calculator</a>
-      <a class="clean-days">0</a>
-    </div>
+        <a class="home nav-bar-element">home</a>
+        <a class="stats-page nav-bar-element">statistics</a>
+        <a class="database-page nav-bar-element">drug database</a>
+        <a class="dose-calc-page nav-bar-element">dose calculator</a>
+        <a class="forums-page nav-bar-element">forums</a>
+      </div>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="get-help" href="#">more resources</a></li>
+          <li><a href="#"><button class="get-help">more resources</button></a></li>
       </nav>
     </header>
     <div>{% block content %}{% endblock %}</div>
