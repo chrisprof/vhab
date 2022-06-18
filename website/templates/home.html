@@ -1,6 +1,7 @@
 {% extends "base.html" %} {% block tittle %} Home {% endblock %} {% block
 content%}
 
+<body id = 'HomeBody'>
 <div>
   <img
     src="{{ url_for('static', filename='images/Addiction.png')}}"
@@ -32,6 +33,10 @@ content%}
     General info, including links/numbers to certified professionals if needed.
   </p>
 </div>
+  <img
+  src="{{ url_for('static', filename='images/BlackWhiteVines.png')}}"
+  id="BWVine"
+  />
 <section id="sect1" class="section">
   <h1 class="section-header">What vHab offers</h1>
   <!-- STEP 01 -->
@@ -45,6 +50,9 @@ content%}
     <p class="step-number">03</p>
   </div>
 </section>
+
+</div>
 <script     src="{{ url_for('static', filename='js/home.js')}}"></script>
 
+</body>
 {% endblock %}
