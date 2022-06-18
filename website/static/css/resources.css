@@ -1,0 +1,49 @@
+.title{
+    padding: 3rem;
+    text-align: center;
+}
+.bg{
+    background-color: #E0DDAA;
+}
+.plus{
+    margin-left: 10px;
+}
+.help-lines{
+    width: 100px;
+    border: 10px;
+    padding: 95px;
+    margin: 15px;
+    margin-left: -40px;
+    background-color: #8FC0A9;
+    display: flex;
+}
+.websites{
+    width: 100px;
+    border: 10px;
+    padding: 95px;
+    padding-top: 20px;
+    margin: 15px;
+    margin-left: 180px;
+    margin-top: -243px;
+    padding-bottom: 190px;
+    background-color: #EEEDDE;
+    display: flex;
+}
+.centers{
+    width: 100px;
+    border: 10px;
+    padding: 95px;
+    padding-bottom: 115px;
+    margin: 15px;
+    margin-left: 400px;
+    margin-top: -245px;
+    background-color: #8FC0A9;
+    display: flex;
+}
+.help-lines-header{
+    text-align: center;
+}
+.boxes{
+    width: 600px;
+    margin:0 auto;
+}

@@ -4,10 +4,39 @@
 
 {% block content %}
 
-    <body>
-    
 
-
-    </body>
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/resources.css') }}"
+            rel="stylesheet"
+        />
+        <body class="bg">
+            <div class="title">
+                <h1>Extra Resources</h1>
+                <h1 class="plus">+</h1>
+                <h1>Professional Help</h1>
+                <div class="boxes">
+                    <div class="help-lines">
+                        <h3 class="help-lines-header">
+                            <u>Help Lines</u>
+                        </h3>
+                    </div>
+                    <div class="websites">
+                        <h3 class="websites-header">
+                            <u>Websites</u>
+                        </h3>
+                    </div>
+                    <div class="centers">
+                        <h3 class="centers-header">
+                            <u>Centers(NJ)</u>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
 
 {% endblock %}
