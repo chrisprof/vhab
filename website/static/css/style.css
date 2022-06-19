@@ -324,6 +324,42 @@ body {
   box-shadow: 5px 5px 0px #0a2e31;
 }
 
+
+/* Stats */
+
+.graph{
+  width:700px;
+  height:auto;
+  background-color: #ecffce;
+  border-radius: 5px;
+  padding: 2%
+}
+
+#stats-parent-div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainHeaderStat{
+  margin:2.5%;
+  color:rgb(46, 38, 57);
+}
+
+.cont-div{
+  background-color: #0a2e31;
+  width:850px;
+  color:white;
+  height:auto;
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 5px 5px 0px #041718;
+}
+
+.cont-div h2{
+  margin:2%;
+}
+
 /*end End*/
 
 ::selection {
