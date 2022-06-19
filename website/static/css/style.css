@@ -265,31 +265,27 @@ body {
 /* profile */
 
 .parent-cont-prof {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .header-cont {
-  margin: 0% 0% 5% 0%;
+  margin: 0% 0% 2% 0%;
 }
 
 .graph-cont {
   background-color: #ecffce;
   width: 600px;
   text-align: center;
-  height: 425px;
+  height: 450px;
 }
 
 .upper-cont h3{
-  margin: 4.5% 10% 4.5% 5%;
+  margin: 4.5% 0% 4.5% 0%;
   word-wrap: break-word;
 }
 
 #todays-dose{
   text-align: center;
-}
-
-#drug{
-  margin-right: 60%
 }
 
 .upper-cont{
@@ -313,7 +309,7 @@ body {
 
 .info-cont {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .clean-count-head {
@@ -330,7 +326,7 @@ body {
 
 #dosageGraph{
   background: rgb(255, 255, 255);
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 
 /* DRUG DATABASE */
@@ -358,7 +354,7 @@ body {
 }
 
 .drug-container {
-  height: 514.23px;
+  height: auto;
   background-color: #d9d9d9;
   padding: 24px 48px;
   margin-bottom: 36px;
@@ -367,8 +363,12 @@ body {
 
 .drug-container p {
   margin-bottom: 12px;
-  line-height: 1.1;
+  line-height: 1.25;
   font-size: 15px;
+}
+
+.drug-container li {
+  line-height: 2.5;
 }
 
 .drug-container h2 {
@@ -386,6 +386,42 @@ body {
 .marijuana-container p {
   margin-top: 87px;
 }
+
+/* Form */
+
+#main-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#main-form h1{
+  margin: 3% 0% 1% 0%;
+  text-align: center;
+}
+.form-input{
+  border:none;
+  margin: 1% 0% 1% 0%;
+  text-align: center;
+  font-size: 15px;
+  width:500px;
+  height:100px;
+}
+
+#submit-button{
+  border:none;
+  width: 150px;
+  height:60px;
+  color:white;
+  background-color: #0e4a4e;
+  transition: all 0.5s;
+}
+
+#submit-button:hover{
+  box-shadow: 5px 5px 0px #0a2e31;
+}
+
 
 /*end End*/
 

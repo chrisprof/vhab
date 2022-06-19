@@ -23,3 +23,7 @@ def resources():
 @views.route('/drug')
 def drug():
     return render_template("drug.html")
+
+@views.route('/start')
+def start():
+    return render_template("start.html")
