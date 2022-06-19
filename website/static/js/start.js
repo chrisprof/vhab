@@ -1,3 +1,8 @@
+if(localStorage.getItem('days'))
+{
+    window.location.href="/profile"
+}
+
 function submitForm(){
     let day = new Date().getDate()
 
@@ -6,6 +11,4 @@ function submitForm(){
     localStorage.setItem('doses','['+document.getElementById('drug-dose').value+']')
     localStorage.setItem('days',1)
     localStorage.setItem('today',day)
-
-    window.location.href='/profile'
 }

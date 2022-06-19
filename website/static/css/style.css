@@ -395,8 +395,8 @@ body {
 
 .grid--footer {
   display: grid;
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
-  gap: 48px;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 400px;
 }
 
 .logo-col {
