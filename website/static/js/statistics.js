@@ -13,18 +13,12 @@ let myGraph = new Chart(deathGraph, {
 })
 
 let lifeExpect = document.getElementById('lifeExpect')
-let lifeexpectarr = [78]
-
-for(var i = 0; i<7+1; i++)
-{
-    lifeexpectarr.push(lifeexpectarr[lifeexpectarr.length-1]*0.996)
-}
-
+let lifeexpectarr = [78.84,78.69,78.54,78.54,78.64,78.79]
 
 let lifeGraph = new Chart(lifeExpect, {
     type: 'line',
     data: {
-        labels: ['2016','2017','2018','2019','2020','2021','2022'],
+        labels: ['2014','2015','2016','2017','2018','2019'],
         datasets: [{
             label:'life expectancy(USA)',
             backgroundColor: '#5F7A61',
