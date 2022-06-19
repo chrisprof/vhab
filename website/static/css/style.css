@@ -85,12 +85,12 @@ body {
   margin-top: 17px;
   width: 100%;
   margin: 0 auto;
-  color:rgb(247, 250, 223);
+  color: rgb(247, 250, 223);
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
 }
 
-#Addiction{
+#Addiction {
   width: 600px;
   height: auto;
 }
@@ -101,7 +101,7 @@ body {
   margin-top: 100px;
   margin-left: 100px;
   font-weight: 700;
-  color:#0e4a4e;
+  color: #0e4a4e;
 }
 
 .step-number {
@@ -152,6 +152,7 @@ body {
 }
 
 #journey-btn {
+  cursor: pointer;
   width: 100%;
   height: 400px;
   margin-top: 20px;
@@ -174,6 +175,7 @@ body {
 #GrapeVine {
   width: 400px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* profile */
@@ -189,21 +191,21 @@ body {
 .graph-cont {
   background-color: #ecffce;
   width: 750px;
-  padding:0% 5% 0% 5%;
+  padding: 0% 5% 0% 5%;
   text-align: center;
   height: 450px;
 }
 
-.upper-cont h3{
+.upper-cont h3 {
   margin: 4.5% 0% 4.5% 0%;
   word-wrap: break-word;
 }
 
-#todays-dose{
+#todays-dose {
   text-align: center;
 }
 
-.upper-cont{
+.upper-cont {
   display: flex;
   flex-direction: row;
   word-wrap: break-word;
@@ -231,7 +233,7 @@ body {
   margin: 8% 0% 8% 0%;
 }
 
-.info-cont-child:hover{
+.info-cont-child:hover {
   box-shadow: 5px 5px 0px #4f6034;
 }
 
@@ -239,7 +241,7 @@ body {
   transition: all 0.25s;
 }
 
-#dosageGraph{
+#dosageGraph {
   background: rgb(255, 255, 255);
   border-radius: 2px;
   margin-bottom: 4%;
@@ -256,7 +258,7 @@ body {
 .drug-img {
   width: 215px;
   height: auto;
-  float:right
+  float: right;
 }
 
 .section-drug {
@@ -287,39 +289,38 @@ body {
   line-height: 2.5;
 }
 
-
 /* Form */
 
-#main-form{
+#main-form {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
 }
 
-#main-form h1{
+#main-form h1 {
   margin: 3% 0% 1% 0%;
   text-align: center;
 }
-.form-input{
-  border:none;
+.form-input {
+  border: none;
   margin: 1% 0% 1% 0%;
   text-align: center;
   font-size: 15px;
-  width:500px;
-  height:100px;
+  width: 500px;
+  height: 100px;
 }
 
-#submit-button{
-  border:none;
+#submit-button {
+  border: none;
   width: 150px;
-  height:60px;
-  color:white;
+  height: 60px;
+  color: white;
   background-color: #0e4a4e;
   transition: all 0.5s;
 }
 
-#submit-button:hover{
+#submit-button:hover {
   box-shadow: 5px 5px 0px #0a2e31;
 }
 
@@ -367,7 +368,7 @@ body {
 
 .section-subheader {
   margin-bottom: 40px;
-  color:#31214b;
+  color: #31214b;
 }
 
 .section-text {
