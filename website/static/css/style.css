@@ -461,3 +461,14 @@ body {
 .footer-link:active {
   color: #cce9dd;
 }
+/* forums */
+.forums-title-wrap{
+  padding: 10%;
+  text-align: center;
+}
+
+.forums-title-wrap img{
+  margin: 3%;
+  height:300px;
+  width:auto;
+}

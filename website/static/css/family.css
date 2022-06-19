@@ -10,6 +10,10 @@ body {
     margin-left: 100px;
 }
 
+
+.Big-Tittle-Wrap{
+    padding-bottom: 0px;
+}
 .Tittle-text {
     margin-left:100px;
     color:black;
@@ -21,7 +25,7 @@ body {
     background-color: #d9d9d9;
     padding: 30px;
     box-shadow: 10px 10px 0px #555;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .do-dont-content-right { 
@@ -68,7 +72,10 @@ body {
 }
 
 .Big-Tittle-Wrap {
-    padding: 20px;
     background-color: #FF9E9E;
+    padding: 20px 0px 110px 0px;
+}
+
+#wrap-top{
     padding-bottom: 20px;
 }
