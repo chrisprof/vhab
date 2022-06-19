@@ -4,7 +4,7 @@
         <h1>Let's get started</h1>
         <input id="person-name" class="form-input" type="text" placeholder="what's your name" required/>
         <input id="drug-name" class="form-input" type="text" placeholder="what drug are you using?" required/>
-        <input id="drug-dose" class="form-input" type="text" placeholder="what is the current daily dosage of this drug?(mg)" required/>
+        <input id="drug-dose" class="form-input" type="number" placeholder="what is the current daily dosage of this drug?(mg)" required/>
         <input id="submit-button" onclick="submitForm()"type="submit"/>
     </form>
     <script src="{{ url_for('static',filename='js/start.js')}}"></script>

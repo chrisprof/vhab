@@ -5,7 +5,7 @@ if(localStorage.getItem('days'))
 
 function submitForm(){
     let day = new Date().getDate()
-
+    
     localStorage.setItem('name',document.getElementById('person-name').value)
     localStorage.setItem('drug',document.getElementById('drug-name').value)
     localStorage.setItem('doses','['+document.getElementById('drug-dose').value+']')

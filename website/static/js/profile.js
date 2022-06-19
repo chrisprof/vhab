@@ -61,3 +61,12 @@ let myGraph = new Chart(graph, {
     ],
   },
 });
+
+
+function delete_prof(){
+  if(window.confirm('Are you sure that you want to delete your profile?'))
+  {
+    localStorage.clear()
+    window.location.href='/'
+  }
+}

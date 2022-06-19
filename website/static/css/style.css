@@ -140,6 +140,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  transition: all 0.1s;
   display: flex;
   justify-content: center;
   width: 600px;
@@ -184,7 +185,23 @@ body {
 }
 
 .header-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin: 0% 0% 2% 0%;
+}
+
+#delete-prof{
+  background-color: #e55737;
+  border: none;
+  color:white;
+  margin:0% 2% 0% 2%;
+  padding: 1%;
+  transition: all 0.5s;
+}
+
+#delete-prof:hover{
+  box-shadow: 5px 5px 0px #8e2710;
 }
 
 .graph-cont {
