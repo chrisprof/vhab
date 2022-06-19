@@ -1,6 +1,40 @@
 {% extends "base.html" %} 
 {% block content %}
+<div id="stats-parent-div">
+    <h1 class="mainHeaderStat">Statistics</h1>
+    <h2 class="mainHeaderStat">Yearly drug abuse causes over 70,000 deaths in the USA alone.</h2>
+    <div class="cont-div">
+        <h2>This number increases annually by 4.0%</h2>
+        <div class="graph">
+            <canvas id="drugDeaths"></canvas>
+        </div>
+    </div>
+    <div class="cont-div">
+        <h2>The overall life expectancy of people in the US has declined because of drug abuse.</h2>
+        <div class="graph">
+            <canvas id="lifeExpect"></canvas>
+        </div>
+    </div>
+    <div class="cont-div">
+        <h2>An estimated 60% of bad work performance is caused by drugs</h2>
+        <div class="graph">
+            <canvas id="badWork"></canvas>
+        </div>
+    </div>
+    <div class="cont-div">
+        <h2>50% of vehicular accidents are caused by drugs</h2>
+        <div class="graph">
+            <canvas id="carcrash"></canvas>
+        </div>
+    </div>
 
-<p>HI</p>
+    <div class="cont-div">
+        <h2>50% of suicides are also caused by drugs</h2>
+        <div class="graph">
+            <canvas id="suicides"></canvas>
+        </div>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/statistics.js')}}"></script>
 
 {% endblock %}
