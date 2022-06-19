@@ -16,16 +16,25 @@
       href="{{ url_for('static', filename='css/nav-style.css') }}"
       rel="stylesheet"
     />
-    <link rel="icon" href="{{ url_for('static', filename='images/vhabpng.png') }}">
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='images/vhabpng.png') }}"
+    />
 
     <title>vHab - a free, virtual rehab</title>
-  </head>
-  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="header">
       <div class="header-container">
-        <a class="home nav-bar-element" href="/">home</a>       
+        <a class="home nav-bar-element" href="/">home</a>
         <a class="dose-calc-page nav-bar-element" href="/profile">profile</a>
         <a class="stats-page nav-bar-element" href="/stats">statistics</a>
         <a class="database-page nav-bar-element" href="/drug">drug database</a>
@@ -35,12 +44,85 @@
       <nav>
         <ul class="main-nav-list">
           <li>
-            <a href="/resources"><button class="get-help">more resources</button></a>
+            <a href="/resources"
+              ><button class="get-help">more resources</button></a
+            >
           </li>
         </ul>
       </nav>
     </header>
-
     <div>{% block content %}{% endblock %}</div>
+    <footer class="footer footer-container">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by vHab, Inc.
+            <br />All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, <br />San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370"
+                >551-689-9298(hit me up)</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@vHab.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About vHab</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
