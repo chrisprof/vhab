@@ -39,3 +39,7 @@ def forums():
 @views.route('/family')
 def family():
     return render_template('family.html')
+
+@views.route('/tos')
+def tos():
+    return render_template('tos.html')

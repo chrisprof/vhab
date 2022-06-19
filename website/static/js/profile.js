@@ -9,7 +9,6 @@ let multiplier = 30;
 function updateRender() {
   if (localStorage.getItem("days")) {
     let day = new Date().getDate();
-    console.log("hi" + day);
     dayCount.innerHTML = localStorage.getItem("days");
     drug.innerHTML = localStorage.getItem("drug");
     todaysdose.innerHTML = doselist[doselist.length - 1] + "mg";
