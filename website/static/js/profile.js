@@ -27,7 +27,7 @@ function updateRender()
     }
 
     else{
-        window.location.href='/'
+        window.location.href='/start'
     }
 }
 

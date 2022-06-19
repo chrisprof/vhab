@@ -88,8 +88,7 @@ body {
   color:rgb(247, 250, 223);
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
-  border-radius: 11px;
-  box-shadow: 10px 10px 0px #99d3ba;
+  box-shadow: 10px 10px 0px #3c564b;
 }
 
 .section-header {
@@ -173,96 +172,6 @@ body {
   margin-top: 50px;
 }
 
-/*Start Btn*/
-
-.open-button {
-  background-color: #555;
-  color: white;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  bottom: 23px;
-  right: 28px;
-  width: 800px;
-  margin: 0;
-}
-
-.form-popup {
-  margin-top: 40px;
-  display: none;
-  bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
-  z-index: 999;
-}
-
-.form-container {
-  max-width: 1000px;
-  padding: 10px;
-  background-color: rgb(74, 70, 95);
-}
-
-.form-container input[type="text"],
-.form-container input[type="password"] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #d6ffe8;
-}
-
-.form-container input[type="text"]:focus,
-.form-container input[type="password"]:focus {
-  background-color: rgb(171, 228, 191);
-  outline: none;
-}
-
-.form-container .btn {
-  background-color: #76dcb6;
-  color: rgb(255, 255, 255);
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 300px;
-  margin-bottom: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
-  opacity: 0.8;
-}
-
-.CheckOut {
-  display: flex;
-  color: whitesmoke;
-  justify-content: center;
-  background-color: rgb(105, 98, 139);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-decoration: none;
-  border: none;
-  transition: all 0.3s;
-}
-
-.CheckOut:hover,
-.CheckOut:active {
-  background-color: #c6a4e3;
-  color: rgb(63, 63, 63);
-}
-
-.form-container .cancel {
-  background-color: #0e4a4e;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.form-container .btn:hover,
-.open-button:hover {
-  opacity: 1;
-}
-
-#InfoH1 {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 /* profile */
 
 .parent-cont-prof {
@@ -275,7 +184,8 @@ body {
 
 .graph-cont {
   background-color: #ecffce;
-  width: 600px;
+  width: 750px;
+  padding:0% 5% 0% 5%;
   text-align: center;
   height: 450px;
 }
@@ -298,7 +208,7 @@ body {
 
 .clean-count-cont {
   background-color: #ecffce;
-  width: 600px;
+  width: 500px;
   height: 350px;
   text-align: center;
 }
@@ -327,6 +237,7 @@ body {
 
 #dosageGraph{
   background: rgb(255, 255, 255);
+  border-radius: 2px;
   margin-bottom: 4%;
 }
 
