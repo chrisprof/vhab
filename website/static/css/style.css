@@ -83,12 +83,17 @@ body {
   align-items: center;
   justify-items: center;
   margin-top: 17px;
-  width: 1400px;
+  width: 1300px;
   margin: 0 auto;
   color:rgb(247, 250, 223);
   background-color: #7fc8a9;
   padding: 1.3rem 0 9.6rem 0;
   box-shadow: 10px 10px 0px #3c564b;
+}
+
+#Addiction{
+  width: 600px;
+  height: auto;
 }
 
 .section-header {

@@ -4,7 +4,7 @@ console.log('hello')
 
 document.addEventListener('scroll',function(e){
     lastPosYsc = Math.floor(window.scrollY/30.946);
-    let multiplier=0.7
+    let multiplier=0.6
     let r = 213-lastPosYsc*multiplier
     let g = 238-lastPosYsc*multiplier
     let b = 187-lastPosYsc*multiplier
