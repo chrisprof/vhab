@@ -27,3 +27,11 @@ def drug():
 @views.route('/start')
 def start():
     return render_template("start.html")
+
+@views.route('/stats')
+def stats():
+    return render_template("stats.html")
+
+@views.route('/forums')
+def forums():
+    return render_template("forums.html")
