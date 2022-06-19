@@ -341,8 +341,7 @@ body {
 .drug-img {
   width: 215px;
   height: auto;
-  margin-left: 500px;
-  margin-bottom: 24px;
+  float:right
 }
 
 .section-drug {
@@ -363,6 +362,7 @@ body {
 }
 
 .drug-container p {
+  margin-top: 12px;
   margin-bottom: 12px;
   line-height: 1.25;
   font-size: 15px;
@@ -372,21 +372,6 @@ body {
   line-height: 2.5;
 }
 
-.drug-container h2 {
-  margin-top: 20px;
-}
-
-.meth-container p {
-  margin-top: 120px;
-}
-
-.herion-container p {
-  margin-top: 74px;
-}
-
-.marijuana-container p {
-  margin-top: 87px;
-}
 
 /* Form */
 
