@@ -35,3 +35,7 @@ def stats():
 @views.route('/forums')
 def forums():
     return render_template("forums.html")
+
+@views.route('/family')
+def family():
+    return render_template('family.html')
