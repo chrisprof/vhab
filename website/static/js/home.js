@@ -8,7 +8,7 @@ function getRandomInt(min, max) {
 
 document.addEventListener("scroll", function (e) {
   lastPosYsc = Math.floor(window.scrollY / 30.946);
-  const multipliers = {"red":1,"green":1.5,"blue":1}
+  const multipliers = {red:1,green:1.5,blue:1}
   let r = 213 - lastPosYsc * multipliers[red];
   let g = 238 - lastPosYsc * multipliers[green];
   let b = 187 - lastPosYsc * multipliers[blue];
