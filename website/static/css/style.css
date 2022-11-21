@@ -30,7 +30,8 @@ body {
 }
 
 #Addiction {
-  float: right;
+  position:absolute;
+  right:0;
   width: auto;
   height: 550px;
   margin-right: 111px;
